@@ -3,6 +3,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     background: #2b2936;
+    color: beige;
 }
 
 a {text-decoration: none;}
@@ -88,4 +89,55 @@ a {text-decoration: none;}
 
 }
 
+                                                /* landing */
 
+.main {
+    display: flex;
+    overflow: hidden;
+    height: 350px;
+    width: 100%;
+    margin: 0;
+}
+
+.landing2, .landing1 {
+    display: inline-block;
+}
+
+.landing1 {
+    margin-right: 1.5%;
+    width: 69%;
+}
+
+.landing1 div, .landing2 div {
+    display: inline-flex;
+    width: 100%;
+}
+
+
+.landing1 img {
+    width: -webkit-fill-available;
+    height: 360px;
+}
+
+.land2 {
+    margin-bottom: 15px;
+}
+
+.landing2 div {
+    height: 50%;
+}
+
+.landing2 img {
+    width: inherit;
+}
+
+
+
+                                        /* heading  */
+
+
+
+.heading {
+    text-align: center;
+    margin-top: 20px;
+}
